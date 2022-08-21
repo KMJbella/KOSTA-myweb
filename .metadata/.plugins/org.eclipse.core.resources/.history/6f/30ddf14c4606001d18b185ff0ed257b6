@@ -1,0 +1,32 @@
+package com.my.dto;
+
+public class Customer {
+/**
+ * 
+ */
+	private String id;
+	private String pwd;
+	private String name;
+	private String address;
+	private int status;
+	private String buildingno;
+	
+	
+	
+	public Customer(String id, String pwd, String name, String address, int status, String buildingno) {
+		super();
+		this.id = id;
+		this.pwd = pwd;
+		this.name = name;
+		this.address = address;
+		this.status = status;
+		this.buildingno = buildingno;
+	}
+	
+	
+	
+	
+	
+}
+
+

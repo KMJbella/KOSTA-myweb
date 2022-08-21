@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>score.html</title>
+  </head>
+  <body>
+    <div>
+      <img src="../images/movie_image.jpg" width="300" />
+    </div>
+    <form action="/back/jsp/score.jsp">
+      <input type="radio" name="score" value="1" />★☆☆☆☆<br />
+      <input type="radio" name="score" value="2" />★★☆☆☆<br />
+      <input type="radio" name="score" value="3" />★★★☆☆<br />
+      <input type="radio" name="score" value="4" checked />★★★★☆<br />
+      <input type="radio" name="score" value="5" />★★★★★<br />
+      <button>별점주기</button>
+    </form>
+    <button class="ajax">별점주기(AJAX)</button>
+    <div class="result">영화평점 결과</div>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+/login=com.my.control.CustomerController
+/signup=com.my.control.CustomerController
+/idd
+/productlist=com.my.control.ProductController

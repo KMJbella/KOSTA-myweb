@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/*login.html*/
+.login1 {
+	background-color: #ebebeb;
+	width: 600px;
+	height: 300px;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+
+
+#id{
+	width:400px; 
+	height:35px;
+}
+
+#pwd{
+	width:400px; 
+	height:35px; 
+}
+
+
+
+button{
+	background-color: #00b500;
+	border-radius: 5px;
+	border: 1px solid white;
+	width:80px; 
+	height:50px;
+	font-size: 15px;
+}
+
+
+
+
+/*searchzip.html*/
+#search1 {
+	margin-bottom: 15px;
+}
+
+#mytable {
+	border: 1px solid;
+	border-collapse: collapse;
+} 
+
+#mytable table, td{
+		border: 1px solid;
+		padding: 5px;
+	}

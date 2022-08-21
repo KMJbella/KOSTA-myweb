@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>창띄우기</title>
+    <script>
+      window.addEventListener("load", function () {
+        document.querySelector("button").addEventListener("click", function () {
+          var parentWindow = window.opener; //http프로토콜일 경우만 가능
+          //file프로토콜일 경우는 cross origin 오류발생
+          var parentBtClose = parentWindow.document.querySelector("button.close");
+          parentBtClose.style.display = "none";
+          window.close();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>팝업창</h1>
+    <button>창닫기</button>
+  </body>
+</html>

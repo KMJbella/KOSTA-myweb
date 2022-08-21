@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/*login.html*/
+div login1 {
+	background-color: #ebebeb;
+	width: 600px;
+	height:200px;
+	/* padding-left:10px;
+	padding-top:40px; */
+}
+
+div iw{
+	width:400px; 
+	height:30px; 
+}
+
+
+#st{
+	width:75px; 
+	height:40px;
+}
+
+
+/*searchzip.html*/
+#search1 {
+	margin-bottom: 15px;
+}
+
+#mytable {
+	border: 1px solid;
+	border-collapse: collapse;
+} 
+
+#mytable table, td{
+		border: 1px solid;
+		padding: 5px;
+	}
